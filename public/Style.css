@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+table, th, td {
+    border: 1px solid;
+}
+p{
+    font-size: 2rem !important;
+
+}
+@media (max-width:825px) {
+    p{
+        font-size: small !important;
+    }
+}
